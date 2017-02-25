@@ -9,7 +9,174 @@
   </head>
   <body>
     <div class="container">
-      <h1>Vacation Suggester</h1>
+
+      <!-- START QUIZ HEADING -->
+
+      <h5><img src="img/beach.jpeg" alt="An image of a beach"></h5>
+      <div id="prompt">
+        <h2>Looking for the perfect vacation?</h2>
+        <h4>We've got just the right place for your getaway! Just take our quiz to find out your perfect destination!</h4>
+      </div>
+
+      <!-- END QUIZ HEADING -->
+
+     <form id="vacation-quiz">
+
+       <h3><strong>Question 1:</strong> What would you rather eat?</h3>
+
+       <!-- START FIRST BUTTONS -->
+
+       <div class="radio">
+         <label>
+           <input type="radio" name="question1" value="1" checked>
+           Seafood
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question1" value="2">
+           Cheese Steak
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question1" value="3">
+           Bacon
+         </label>
+       </div>
+
+       <!-- END FIRST BUTTONS -->
+
+       <h3><strong>Question 2:</strong> What are you looking for in a vacation?</h3>
+
+       <!-- START SECOND BUTTONS -->
+
+       <div class="radio2">
+         <label>
+           <input type="radio" name="question2" value="1" checked>
+           Total relaxation
+         </label>
+       </div>
+       <div class="radio2">
+         <label>
+           <input type="radio" name="question2" value="2">
+           Museums and history!
+         </label>
+       </div>
+       <div class="radio2">
+         <label>
+           <input type="radio" name="question2" value="3">
+           Danger and excitement - adventure around every corner.
+         </label>
+       </div>
+
+       <!-- END SECOND BUTTONS -->
+
+       <h3><strong>Question 3:</strong> What kind of climate sounds inviting?</h3>
+
+       <!-- START THIRD BUTTONS -->
+
+       <div class="radio">
+         <label>
+           <input type="radio" name="question3" value="1" checked>
+           Sunshine! Tropical breezes!
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question3" value="2">
+           Snow.  Possible thunderstorms.
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question3" value="3">
+           Intolerable heat. Freezing nights.
+         </label>
+       </div>
+
+       <!-- END THIRD BUTTONS -->
+
+       <h3><strong>Question 4:</strong> Which best describes your friends?</h3>
+
+       <!-- START FOURTH BUTTONS -->
+
+       <div class="radio">
+         <label>
+           <input type="radio" name="question4" value="1" checked>
+           Relaxed pina colada drinkers.
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question4" value="2">
+           Patriots. History buffs. Bookworms.
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question4" value="3">
+           Burners. Makers. Adventurers.
+         </label>
+       </div>
+
+       <!-- END FOURTH BUTTONS -->
+
+       <h3><strong>Question 5:</strong> What are you most likely to take on vacation?</h3>
+
+       <!-- START FIFTH BUTTONS -->
+
+       <div class="radio">
+         <label>
+           <input type="radio" name="question5" value="1" checked>
+           Flip flops
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question5" value="2">
+           Museum guides
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="question5" value="3">
+           Power tools and survival gear
+         </label>
+       </div>
+
+        <button type="submit" class="button">Submit!</button>
+    </form>
+
+        <!-- START RESULTS -->
+
+      <div id="vacation1">
+        <h2>Looks like your perfect vacation is...</h2>
+          <img src="img/sayulita.jpg" alt="Sayulita Mexico">
+               <h1>Sayulita, Mexico</h1>
+               <p>Welcome to sunny Sayulita! Home to beautiful beaches, Mexican culture, world-class activities and more, you will fall in love with this seaside surfer town. Stunning natural beauty, eco tourism and jungle retreats are just the beginning. Fantastic and fun restaurants, with Wi-Fi readily available, English speaking doctors and pharmacists, and open-air eateries overlooking the sand and surf.</p>
+             </div>
+
+             <div id="vacation2">
+               <h2>Looks like your perfect vacation is...</h2>
+               <img src="img/philly.jpg" alt="Philadelphia">
+               <h1>Philadelphia, Pennsylvania</h1>
+               <p>Philadelphia, Pennsylvania’s largest city, is notable for its rich history, on display at the Liberty Bell, Independence Hall (where the Declaration of Independence and Constitution were signed) and other American Revolutionary sites. Also iconic are the steps of the Philadelphia Museum of Art, immortalized by Sylvester Stallone’s triumphant run in the film "Rocky."</p>
+             </div>
+
+             <div id="vacation3">
+               <h2>Looks like your perfect vacation is...</h2>
+               <img src="img/burningman.png" alt="Burning Man at night">
+               <h1>Burning Man</h1>
+               <p>Burning Man is an annual gathering that takes place at Black Rock City—a temporary city erected in the Black Rock Desert in Nevada. The event is described as an experiment in community and art, influenced by 10 main principles, including "radical" inclusion, self-reliance and self-expression, as well as community cooperation, civic responsibility, gifting, decommodification, participation, immediacy and leaving no trace. At Burning Man the community explores various forms of artistic self-expression, created in celebration for the pleasure of all participants. Participation is a key precept for the community – selfless giving of one's unique talents for the enjoyment of all is encouraged and actively reinforced. Some of these generous outpourings of creativity can include experimental and interactive sculpture, building, performance, and art cars among other mediums, often inspired by the yearly theme, chosen by organizers. The event takes its name from its culmination, the symbolic ritual burning of a large wooden effigy ("the Man") that traditionally occurs on the Saturday evening of the event</p>
+             </div>
+
+               <!-- END RESULTS -->
+
+             <form id="restartQuiz">
+                     <button type="submit" class="btn">  Take The Quiz Again</button>
+                   </form>
+
     </div>
   </body>
 </html>
